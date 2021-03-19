@@ -1,11 +1,11 @@
 const {Pool} = require("pg");
  async function criarConexao() {
   const pool = new Pool({
-      user: 'zoeyemewxtzvyr',
-      password: '67d9b3ee66a9016bb2eb82df3e600078fdd57e9f6b71501f6d69496d1d4c98c8',
-      port: '5432',
-      host: 'ec2-35-174-118-71.compute-1.amazonaws.com',
-      database: 'd9ks7p6r08br17',
+user: '',
+      password: '',
+      port: '',
+      host: '',
+      database: '',
       
       
         ssl: {
